@@ -1,0 +1,55 @@
+body  {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li {
+    background-color: rgb(252, 184, 184);
+    display: block;
+    width: 200px;
+    border: 1px solid white;
+}
+
+    ul li:hover {
+        background-color: red;
+    }
+
+    ul li a:hover {
+        color: white;
+    }
+
+    ul li a {
+        color: rgb(138, 111, 111);
+        text-decoration: none;
+    }
+img{
+    display:block;
+    margin:auto;
+}
+@media (min-width: 600px){
+    body{
+        background-color: lightgreen;
+    }
+    img{
+        float: center;
+    }
+}
+@media (min-width: 768px){
+    body{
+        background-color: lightblue;
+    }
+    img{
+        float: left;
+    }
+}
+
+.tagelement {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: lightgray;
+    box-sizing: border-box;
+    width: 49%;
+    height: 150px;
+    margin: 5px;
+    padding: 60px;
+    text-align: center;
+}
