@@ -2,7 +2,7 @@
 <html lang="en-US">
 <head>
     <meta chaeset="utf-8">
-    <name ="Nurun" Content="Naher">
+    <meta name ="Author" Content="Nurun Naher">
         <title>About york college</title>
 
 </head>
@@ -10,23 +10,50 @@
 
     <h1>About</h1>
     <p>York College: Mission, Vision and Values</p>
+    
     <h2>Mission</h2>
-    <p title-="Mission">York College enriches lives and enables students to grow as passionate, engaged learners with the confidence to realize their intellectual and human potential as individuals and global citizens. </p>
+    <p title-="Mission">York College enriches lives and enables students to grow as passionate,
+    engaged learners with the confidence to realize their intellectual and human potential as 
+    individuals and global citizens. </p>
 
     <h2>Vision</h2>
-    <p>York College's hallmark academic programs in liberal arts and sciences will be recognized as centers of excellence within CUNY, attracting and graduating some of the best and most highly-motivated students from New York City and the greater New York area. We will be the first choice for prospective CUNY students interested in the health professions, allied health sciences, and business, including aviation management. York College will also establish itself as a model for enabling first generation college students to earn an undergraduate degree and will fulfill students' individual academic goals while preparing them for graduate education and the competitive marketplace. Students are at the center of their own learning at York College. We offer multiple opportunities for student engagement, inquiry and research-based scholarship, and experiential learning. York maintains a vibrant campus where students actively participate in extra-curricular programs and collaborate with faculty and academic peers whose backgrounds are distinctly different from their own. The College has a dynamic student life with athletic and visual/performing arts programs, special interest clubs and social organizations where students develop enduring relationships and refine interpersonal skills.</p>
+    <p>York College's hallmark academic programs in liberal arts and sciences will be recognized
+    as centers of excellence within CUNY, attracting and graduating some of the best and most 
+    highly-motivated students from New York City and the greater New York area. We will be the 
+    first choice for prospective CUNY students interested in the health professions, allied health 
+    sciences, and business, including aviation management. York College will also establish itself 
+    as a model for enabling first generation college students to earn an undergraduate degree and 
+    will fulfill students' individual academic goals while preparing them for graduate education and
+    the competitive marketplace. Students are at the center of their own learning at York College. 
+    We offer multiple opportunities for student engagement, inquiry and research-based scholarship,
+    and experiential learning. York maintains a vibrant campus where students actively participate 
+    in extra-curricular programs and collaborate with faculty and academic peers whose backgrounds 
+    are distinctly different from their own. The College has a dynamic student life with athletic 
+    and visual/performing arts programs, special interest clubs and social organizations where 
+    students develop enduring relationships and refine interpersonal skills.</p>
 
-    <p>The College will enable faculty and students to pursue their highest goals and foster their development as individuals and professionals. York College will be an attractive place to work, which will draw highly qualified candidates for its academic, executive, professional and administrative positions. The multicultural nature of our sustainable academic and social environments enriches the collegiate experience for all students, faculty, and staff.
+    <p>The College will enable faculty and students to pursue their highest goals and foster their
+    development as individuals and professionals. York College will be an attractive place to work,
+    which will draw highly qualified candidates for its academic, executive, professional and 
+    administrative positions. The multicultural nature of our sustainable academic and social 
+    environments enriches the collegiate experience for all students, faculty, and staff.
     </p>
-    <p>York College will be a magnetizing institution within the Queens community where students and graduates are mobilized as advocates/participants in continuous civic engagement. Our strong alumni network supports our programs, serves as ambassadors and donates time, talent and capital to advance our mission. Our Continuing and Professional Education function attracts students, graduates, individuals and professionals in pursuit of continued personal and professional development. Our business outreach activities engage the business community to strengthen our town-grown relationships.
-    </p>
+    <p>York College will be a magnetizing institution within the Queens community where students
+    and graduates are mobilized as advocates/participants in continuous civic engagement. Our 
+    strong alumni network supports our programs, serves as ambassadors and donates time, talent 
+    and capital to advance our mission. Our Continuing and Professional Education function attracts
+    students, graduates, individuals and professionals in pursuit of continued personal and 
+    professional development. Our business outreach activities engage the business community 
+    to strengthen our town-grown relationships.</p>
 
 
 
     <h1>Values</h1>
     <h2>Integrity</h2> 
-    <p>York College/ CUNY embraces integrity as a central value in all aspects of its engagement including teaching, learning, research and service; Integrity will emerge from committed, continuing and rigorous evaluation of all college policies, procedures and processes.
-    </p>
+    <p>York College/ CUNY embraces integrity as a central value in all aspects of its engagement
+    including teaching, learning, research and service; Integrity will emerge from committed, 
+    continuing and rigorous evaluation of all college policies, procedures and processes.</p>
     
 
 </body>
+</html>
