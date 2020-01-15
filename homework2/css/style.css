@@ -1,0 +1,357 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    position: relative!important;
+}
+
+/*====== Start of Nav part ======*/
+
+nav{
+    background: rgba(0, 0, 0, 0.04);
+    position: absolute !important;
+    z-index: 1000;
+    width: 100%;
+}
+
+
+.navBg{
+    background: #0f2f44!important;
+    position: fixed!important;
+    top: 0;
+    left: 0;
+}    
+
+
+nav .navbar-brand img{
+    vertical-align: middle;
+    line-height: 90px;
+}
+
+nav .navbar-toggler-icon{
+    color: rgb(0, 217, 217);
+    line-height: 30px;
+    cursor: pointer;
+}
+
+
+.navbar-toggler:focus, .navbar-toggler:hover{
+    outline: 0;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: white!important;
+    font-family: 'Lato', 'Helvetica', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    position: relative;
+    padding: 19px 10px !important;
+    transition: all linear 0.3s;
+    position: relative;
+    margin: 5px 5px;
+    text-align: center;
+}
+
+
+nav ul li a:hover {
+    color: rgb(0, 217, 217)!important;
+    background: rgba(0, 217, 217, 0.25); 
+    
+}
+
+nav ul li a::after{
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background: rgb(0, 217, 217) no-repeat center;
+    transition: all linear 0.3s;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+nav ul li a::before{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: -2px;
+    width: 0;
+    height: 2px;
+    background: rgb(0, 217, 217) no-repeat center;
+    transition: all linear 0.3s;
+}
+
+nav ul li a:hover::before{
+    width: 100%;
+}
+
+/*===== start of active ======*/
+
+
+
+nav ul li a.active{
+    text-decoration: none;
+    color: rgb(0, 217, 217);
+    font-family: 'Lato', 'Helvetica', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    position: relative;
+    padding: 19px 15px;
+    transition: all linear 0.3s;
+    position: relative;
+    margin: 5px 5px;
+    text-align: center;
+    background: rgba(0, 217, 217, 0.25);
+}
+
+nav ul li a.active:hover{
+    background: rgba(0, 217, 217, 0.25);
+    
+}
+
+
+/*
+nav ul li a #drop{
+    padding-left: 5px;
+}
+*/
+
+/*
+nav ul li a.active {
+    color: rgb(0, 217, 217);
+}
+*/
+
+nav ul li a.active::after{
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background: rgb(0, 217, 217) no-repeat center;
+    transition: all linear 0.3s;
+}
+
+nav ul li a.active::after{
+    width: 100%;
+}
+
+nav ul li a.active::before{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: -2px;
+    width: 0;
+    height: 2px;
+    background: rgb(0, 217, 217) no-repeat center;
+    transition: all linear 0.3s;
+}
+
+nav ul li a.active::before{
+    width: 100%;
+}
+
+/*====== end of active ======*/
+
+/*====== End of Nav part ======*/
+
+
+/*star of banner part*/
+#banner-part{
+    margin-top: 0;
+}
+
+#banner-part .banner-item{    
+    width: 100%;
+    height: 100%;
+    position: relative!important;
+    
+}
+
+#banner-part .banner-item h1{
+    font-weight: 700;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 52px;
+}
+
+#banner-part .banner-item p{
+    font-weight: 500;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 32px;
+}
+
+
+#banner-part .item-1{
+   background: url(../images/banner-1.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#banner-part .item-2{
+   background: url(../images/banner-1.jpg) no-repeat center; 
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#banner-part .item-3{
+   background: url(../images/banner-1.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#banner-part .item-4{
+   background: url(../images/banner-1.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#banner-part .banner-item .overlay{
+    width: 100% !important;
+    height: 100%!important;
+    background: rgba(0, 0, 0, 0.6);
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+#banner-part .overlay .jumbotron{
+    background: transparent!important;
+    color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 0!important;
+}
+
+/*end of banner part*/
+/*start of about part*/
+
+#about-part{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+/*about header*/
+#about-part .about .about-header{
+    margin-bottom: 50px;
+}
+#about-part .about .about-header h1{
+    font-size: ;
+    font-weight: ;
+    font-family: ;
+    color: #222222;
+    text-align: center;
+}
+
+
+
+/*about header*/
+/*about text*/
+#about-part .about .about-text h3{
+    font-family: 'Carter One', cursive;      
+}
+
+/*about text*/
+/*about image*/
+#about-part .image{
+    text-align: center;
+}
+#about-part .image img{
+    text-align: center;
+}
+
+/*about image*/
+
+/*end of about part*/
+/*start of gallery part*/
+
+#gallery-part{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#gallery-part .header{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#gallery-part .gallery-item{
+    margin-right: 20px;
+}
+/*end of gallery part*/
+
+/*start of skill part*/
+
+#skill-part{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#skill-part .technical-skill .head{
+    margin-bottom: 50px;
+}
+
+#skill-part .technical-skill .progress{
+    margin-bottom: 15px;
+}
+
+#skill-part .normal-skill .head{
+    margin-bottom: 50px;
+}
+
+#skill-part .normal-skill .progress{
+    margin-bottom: 15px;
+}
+
+/*end of skill part*/
+/*start of course part*/
+
+#course-part{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#course-part .head{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/*end of course part*/
+/*start of footer part*/
+
+#footer-part{
+    background: #0f2f44!important;
+    color: #ffffff;
+}
+
+.footlink{
+    text-decoration: none!important;
+    color: #ffffff!important;
+    transition: all linear 0.3s!important;
+    
+}
+
+.footlink:hover{
+    color: rgb(0, 217, 217) !important;
+}
+
+.footlink-1{
+    text-decoration: none!important;
+    color: rgb(0, 217, 217) !important;
+    transition: all linear 0.3s!important;
+}
+
+/*end of footer part*/
+
+
