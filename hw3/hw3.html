@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+    <head>
+
+        <meta charset="utf-8">
+
+        <title>CS493-Homework#3</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    </head>
+
+    <body>
+
+
+
+        <header>
+
+            <div id="alertbox"></div>
+
+            <div class="jumbotron text-center">
+
+                <h1 id="top">CS493 - Homework#3</h1>
+
+                <p id="leadtext" class="lead" >Due : 1/19/2020</p>       
+
+                <hr >
+
+                <p >CS493 teaches students how to develop modern web pages using HTML and CSS. JavaScript and React.js will also be introduced.
+
+
+
+                </p>   
+
+            </div>
+
+        </header>
+
+
+
+        <div class="container">
+
+            <section>
+
+                <h2>Employee List<small>- Please add the name and last name of employee.[28 points]</small></h2>
+
+                <p>
+
+                    <ol>
+
+                        <li>When the add button is clicked, the name and the last name in the textboxes will be added to the table below. Once the name is added, the input text boxes should be cleared. The No. column of the first row should be equal to 1, and second row should be equal to 2. and so on.  [12 points]  </li>
+
+                        <li>If either the name or last name is empty, an alert message will be displayed. [6 points]  </li>
+
+                        <li>The clear button will remove all the table rows from the table.[5 points]</li>
+
+                        <li>Your code should be easy to read and easy to maintain (i.e. proper function call, proper indentation, good choice for variable names, comments etc.). [5 points]</li>
+
+                    </ol>  
+
+                </p>
+
+
+
+                <div id="alertmsg"></div>
+
+                <label >Name: <label><input type="input" id="name"></input>
+
+                <label >Last Name: <label><input type="input" id="last-name"></input>
+
+                
+
+    
+
+                <button type="button" class="btn btn-outline-info" id="btn-add">Add</button>
+
+                <button type="button" class="btn btn-outline-info" id="btn-clear">Clear</button>
+
+            </section>
+
+            <table class="table">
+
+                    <thead>
+
+                        <tr>
+
+                            <th>No.</th>
+
+                            <th>Name</th>
+
+                            <th>Last Name</th>
+
+                        </tr>                        
+
+                    </thead>
+
+                        <tbody id="table-body">
+
+                            <!-- <tr>
+
+                                <td>0.</td>
+
+                                <td>Jane</td>
+
+                                <td>Doe</td>
+
+                            </tr> -->
+
+
+
+                        </tbody>
+
+                </table>        
+
+            <hr>
+
+            <section>
+
+                <h2>Text Transformation<small>- Please input text you want to transform. [12 points]</small></h2>
+
+                <p>The input text will get transformed to different formats when the key is pressed.</p>
+
+                Your input <input type="input" id="txtInput"></input>
+
+                <div class="container">
+
+                    <table class="table table-striped table-hover">
+
+                            <thead>
+
+                                <tr>
+
+                                    <th width="200">Transform to...</th>
+
+                                    <th></th>
+
+                                </tr>
+
+                            </thead>
+
+                            <tbody>
+
+                                <tr>
+
+                                    <td>all uppercase</td>
+
+                                    <td id="txtUC">transformed text goes here...</td>
+
+                               </tr>
+
+                               <tr>
+
+                                    <td>all lowercase</td>
+
+                                    <td id="txtLC">transformed text goes here...</td>
+
+                               </tr>
+
+                               <tr>
+
+                                    <td>red color font</td>
+
+                                    <td id="txtRed">transformed text goes here...</td>
+
+                               </tr>  
+
+                               <tr>
+
+                                    <td>cursive font</td>
+
+                                    <td id="txtCursive">transformed text goes here...</td>
+
+                               </tr>                              
+
+                            </tbody>                    
+
+                        </table>           
+
+    
+
+    
+
+                </div>                
+
+            </section>
+
+            <hr>
+
+
+
+
+
+
+
+    </div>
+
+    <footer class="page-footer bg-light">
+
+            <div class="footer-copyright text-center">&copy; by CS493 Course (Course Instructor: Thitima Srivatanakul)</div>
+
+    </footer>
+
+        <script src="hw3.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+    </body>
+
+</html>
